@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;700;900&display=swap'); 
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #f9f9f9;
+	width: 100%;
+	top:0;
+}
+footer{
+	background-color: #30363d;
+	padding: 30px;
+	color: #999;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#hero{
+	background-image: url("../img/home-slide.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 7%;
+}
+#cta{
+	background-image: url("../img/product-parallax.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	padding: 6%
+}
+#cta h3{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+#cta h1{
+	font-size: 70px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+#cta p{
+	font-size: 18px;
+	padding-left: 22%;
+	padding-right: 22%;
+}
+button {
+  background-color: #282d33;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+  width: 35%;
+	border-radius: 80px;
+	font-size: 14px;
+}
+button2 {
+  background-color: #FFFFFF;
+  color: #282d33;
+  padding: 14px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+	border-color: #FFFFFF;
+	border: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+}
+#hero h1{
+	font-size: 60px;
+	color: #282d33;
+	font-weight: 600;
+}
+#info h1{
+	font-size: 30px;
+	font-weight: 600;
+	padding-bottom: 5%;
+	padding-top: 15%;
+}
+#flexibility{
+	background-image: url("../img/product-parallax-2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	padding: 6%;
+}
+#flexibility h1{
+	font-size: 25px;
+	font-weight: 600;
+	padding-bottom: 5%;
+	padding-top: 15%;
+	color: #FFFFFF;
+}
+#products{
+	padding: 5%;
+	background-color:  #f5f5f5;
+}
+.product{
+background-color: #FFFFFF;
+	padding: 3%
+}
+#products h5{
+	padding: 4%;
+	font-size: 12px;
+}
+#products h4{
+	font-size: 20px;
+	font-weight: 700;
+}
+#products h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 600;
+	color: #282d33;
+}
+#products p{
+	text-align: center;
+	padding-bottom: 4%;
+}
+#clients{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #f5f5f5;
+}
+footer p{
+	margin-bottom: 0;
+}
+
